@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //check for the number 2048 in the squares to win
     function checkForWin() {
         for (let i = 0; i < squares.length; i++) {
-            if (squares[i].innerHTML == 2048) {
+            if (squares[i].innerHTML == 4) {
                 resultDisplay.innerHTML = "You WIN!"
                 document.removeEventListener("keydown", control)
                 setTimeout(clear, 3000)
